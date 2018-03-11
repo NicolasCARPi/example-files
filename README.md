@@ -1,3 +1,5 @@
 # example-files
 
-List of files of different type so they can be tested in an app or something.
+This repository aims to regroup the maximum of different file examples. Because sometimes it's hard to find an example of such file. So here you go :)
+
+Pull requests are welcome to add files. Just make sure they do not hold some form of copyright.
