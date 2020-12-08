@@ -1,0 +1,74 @@
+[
+    {
+        "bookable": "1",
+        "category": "auieratuieuie",
+        "category_id": "4",
+        "color": "f56a28",
+        "ordering": "0",
+        "template": "<p>uieauie</p>"
+    },
+    {
+        "bookable": "0",
+        "category": "Project",
+        "category_id": "1",
+        "color": "32a100",
+        "ordering": "1",
+        "template": "<p>Go to the admin panel to edit/add more items types!</p>"
+    },
+    {
+        "bookable": "1",
+        "category": "Microscope",
+        "category_id": "2",
+        "color": "2000eb",
+        "ordering": "2",
+        "template": "<p>wavelengths:</p>\n<p>camera:</p>\n<p>pixel size:</p>"
+    },
+    {
+        "bookable": "0",
+        "category": "Strain",
+        "category_id": "3",
+        "color": "9e7ebd",
+        "ordering": "3",
+        "template": ""
+    },
+    {
+        "bookable": "0",
+        "category": "Protocol",
+        "category_id": "5",
+        "color": "f94063",
+        "ordering": "4",
+        "template": ""
+    },
+    {
+        "bookable": "0",
+        "category": "bacteria",
+        "category_id": "7",
+        "color": "c877fb",
+        "ordering": "5",
+        "template": ""
+    },
+    {
+        "bookable": "0",
+        "category": "jaune",
+        "category_id": "8",
+        "color": "bdab1c",
+        "ordering": "6",
+        "template": "<p>auie</p>"
+    },
+    {
+        "bookable": "0",
+        "category": "pika",
+        "category_id": "14",
+        "color": "ffab00",
+        "ordering": "7",
+        "template": ""
+    },
+    {
+        "bookable": "0",
+        "category": "new oneenenenenuuuu",
+        "category_id": "15",
+        "color": "c3a266",
+        "ordering": "8",
+        "template": "<p>uuu</p>\n<p>auieuie</p>"
+    }
+]

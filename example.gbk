@@ -1,0 +1,133 @@
+LOCUS       Exported                2584 bp ds-DNA     circular SYN 06-AUG-2018
+DEFINITION  Expression of customizable guide RNA (gRNA) for bacterial gene 
+            knockdown.
+ACCESSION   .
+VERSION     .
+KEYWORDS    pgRNA-bacteria
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 2584)
+  AUTHORS   Qi LS, Larson MH, Gilbert LA, Doudna JA, Weissman JS, Arkin AP, Lim 
+            WA
+  TITLE     Repurposing CRISPR as an RNA-Guided Platform for Sequence-Specific 
+            Control of Gene Expression.
+  JOURNAL   Cell. 2013 Feb 28;152(5):1173-83. doi: 10.1016/j.cell.2013.02.022.
+  PUBMED    23452860
+REFERENCE   2  (bases 1 to 2584)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Aug 6, 2018 from SnapGene Server 1.1.58
+            http://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..2584
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     promoter        5..39
+                     /label=J23119(SpeI) promoter
+                     /note="bacterial promoter (Registry of Standard Biological 
+                     Parts BBa_J23119) modified to end with an SpeI site"
+     misc_RNA        60..135
+                     /label=gRNA scaffold
+                     /note="guide RNA scaffold for the Streptococcus pyogenes 
+                     CRISPR/Cas9 system"
+     CDS             156..185
+                     /codon_start=1
+                     /product="Myc (human c-Myc proto-oncogene) epitope tag"
+                     /label=Myc
+                     /translation="EQKLISEEDL"
+     CDS             201..218
+                     /codon_start=1
+                     /product="6xHis affinity tag"
+                     /label=6xHis
+                     /translation="HHHHHH"
+     primer_bind     complement(274..291)
+                     /label=pBAD Reverse
+                     /note="For vectors with E. coli araBAD promoter, reverse 
+                     primer"
+     terminator      444..490
+                     /label=rrnB T1 terminator
+                     /note="transcription terminator T1 from the E. coli rrnB 
+                     gene"
+     primer_bind     complement(543..560)
+                     /label=L4440
+                     /note="L4440 vector, forward primer"
+     rep_origin      complement(714..1302)
+                     /direction=LEFT
+                     /label=ori
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of 
+                     replication"
+     primer_bind     complement(794..813)
+                     /label=pBR322ori-F
+                     /note="pBR322 origin, forward primer"
+     CDS             complement(1473..2333)
+                     /codon_start=1
+                     /gene="bla"
+                     /product="beta-lactamase"
+                     /label=AmpR
+                     /note="confers resistance to ampicillin, carbenicillin, and
+                     related antibiotics"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
+     primer_bind     2096..2115
+                     /label=Amp-R
+                     /note="Ampicillin resistance gene, reverse primer"
+     promoter        complement(2334..2438)
+                     /gene="bla"
+                     /label=AmpR promoter
+     primer_bind     2506..2524
+                     /label=pBRforEco
+                     /note="pBR322 vectors, upsteam of EcoRI site, forward 
+                     primer"
+     terminator      2528..2571
+                     /label=bacterial terminator
+                     /note="putative bacterial transcription terminator"
+ORIGIN
+        1 atctttgaca gctagctcag tcctaggtat aatactagta actttcagtt tagcggtctg
+       61 ttttagagct agaaatagca agttaaaata aggctagtcc gttatcaact tgaaaaagtg
+      121 gcaccgagtc ggtgcttttt ttgaagcttg ggcccgaaca aaaactcatc tcagaagagg
+      181 atctgaatag cgccgtcgac catcatcatc atcatcattg agtttaaacg gtctccagct
+      241 tggctgtttt ggcggatgag agaagatttt cagcctgata cagattaaat cagaacgcag
+      301 aagcggtctg ataaaacaga atttgcctgg cggcagtagc gcggtggtcc cacctgaccc
+      361 catgccgaac tcagaagtga aacgccgtag cgccgatggt agtgtggggt ctccccatgc
+      421 gagagtaggg aactgccagg catcaaataa aacgaaaggc tcagtcgaaa gactgggcct
+      481 ttcgttttat ctgttgtttg tcggtgaact ggatccttac tcgagtctag actgcaggct
+      541 tcctcgctca ctgactcgct gcgctcggtc gttcggctgc ggcgagcggt atcagctcac
+      601 tcaaaggcgg taatacggtt atccacagaa tcaggggata acgcaggaaa gaacatgtga
+      661 gcaaaaggcc agcaaaaggc caggaaccgt aaaaaggccg cgttgctggc gtttttccac
+      721 aggctccgcc cccctgacga gcatcacaaa aatcgacgct caagtcagag gtggcgaaac
+      781 ccgacaggac tataaagata ccaggcgttt ccccctggaa gctccctcgt gcgctctcct
+      841 gttccgaccc tgccgcttac cggatacctg tccgcctttc tcccttcggg aagcgtggcg
+      901 ctttctcata gctcacgctg taggtatctc agttcggtgt aggtcgttcg ctccaagctg
+      961 ggctgtgtgc acgaaccccc cgttcagccc gaccgctgcg ccttatccgg taactatcgt
+     1021 cttgagtcca acccggtaag acacgactta tcgccactgg cagcagccac tggtaacagg
+     1081 attagcagag cgaggtatgt aggcggtgct acagagttct tgaagtggtg gcctaactac
+     1141 ggctacacta gaagaacagt atttggtatc tgcgctctgc tgaagccagt taccttcgga
+     1201 aaaagagttg gtagctcttg atccggcaaa caaaccaccg ctggtagcgg tggttttttt
+     1261 gtttgcaagc agcagattac gcgcagaaaa aaaggatctc aagaagatcc tttgatcttt
+     1321 tctacggggt ctgacgctca gtggaacgaa aactcacgtt aagggatttt ggtcatgaga
+     1381 ttatcaaaaa ggatcttcac ctagatcctt ttaaattaaa aatgaagttt taaatcaatc
+     1441 taaagtatat atgagtaaac ttggtctgac agttaccaat gcttaatcag tgaggcacct
+     1501 atctcagcga tctgtctatt tcgttcatcc atagttgcct gactccccgt cgtgtagata
+     1561 actacgatac gggagggctt accatctggc cccagtgctg caatgatacc gcgagaccca
+     1621 cgctcaccgg ctccagattt atcagcaata aaccagccag ccggaagggc cgagcgcaga
+     1681 agtggtcctg caactttatc cgcctccatc cagtctatta attgttgccg ggaagctaga
+     1741 gtaagtagtt cgccagttaa tagtttgcgc aacgttgttg ccattgctac aggcatcgtg
+     1801 gtgtcacgct cgtcgtttgg tatggcttca ttcagctccg gttcccaacg atcaaggcga
+     1861 gttacatgat cccccatgtt gtgcaaaaaa gcggttagct ccttcggtcc tccgatcgtt
+     1921 gtcagaagta agttggccgc agtgttatca ctcatggtta tggcagcact gcataattct
+     1981 cttactgtca tgccatccgt aagatgcttt tctgtgactg gtgagtactc aaccaagtca
+     2041 ttctgagaat agtgtatgcg gcgaccgagt tgctcttgcc cggcgtcaat acgggataat
+     2101 accgcgccac atagcagaac tttaaaagtg ctcatcattg gaaaacgttc ttcggggcga
+     2161 aaactctcaa ggatcttacc gctgttgaga tccagttcga tgtaacccac tcgtgcaccc
+     2221 aactgatctt cagcatcttt tactttcacc agcgtttctg ggtgagcaaa aacaggaagg
+     2281 caaaatgccg caaaaaaggg aataagggcg acacggaaat gttgaatact catactcttc
+     2341 ctttttcaat attattgaag catttatcag ggttattgtc tcatgagcgg atacatattt
+     2401 gaatgtattt agaaaaataa acaaataggg gttccgcgca catttccccg aaaagtgcca
+     2461 cctgacgtct aagaaaccat tattatcatg acattaacct ataaaaatag gcgtatcacg
+     2521 aggcagaatt tcagataaaa aaaatcctta gctttcgcta aggatgattt ctggaattct
+     2581 aaag
+//
